@@ -1,0 +1,22 @@
+{
+  "name": "smoldot-play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot/api": "^10.3.4",
+    "@polkadot/keyring": "^11.1.3",
+    "@polkadot/rpc-provider": "^10.4.1",
+    "@polkadot/types": "^10.4.1",
+    "@polkadot/util": "^11.1.3",
+    "@polkadot/util-crypto": "^11.1.3",
+    "smoldot": "^1.0.2",
+    "ts-node": "^10.9.1"
+  }
+}
